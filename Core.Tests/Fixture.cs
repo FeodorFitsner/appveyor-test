@@ -7,7 +7,7 @@ namespace Core.Tests
         [Fact]
         public void Test()
         {
-            Assert.Equal(4, Core.Random.Generate());
+            Assert.Equal(17, Core.Random.Generate());
         }
     }
 }
