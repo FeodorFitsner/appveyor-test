@@ -4,7 +4,7 @@
     {
         public static int Generate()
         {
-            return 17;
+            return 6;
         }
     }
 }
