@@ -9,5 +9,11 @@ namespace Core.Tests
         {
             Assert.Equal(17, Core.Random.Generate());
         }
+
+        [Fact]
+        public void Test()
+        {
+            Assert.Equal(16, Core.Random.Generate() - 1);
+        }
     }
 }
