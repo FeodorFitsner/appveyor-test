@@ -1,0 +1,7 @@
+version: '{build}'
+branches:
+  only:
+  - vNext
+  - master
+build_script:
+- ps: .\Build.and.run.tests.ps1
